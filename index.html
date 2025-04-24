@@ -1,252 +1,265 @@
 <!DOCTYPE html>
 <html>
 	<style type="text/css">
-		@font-face{font-family: 'Pretendard-Regular';
-				src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
-		    font-style: normal; font-size: 40px; word-break: keep-all;}
+		@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
 	</style>
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>~ 러브하우스 ~</title>
+	<title>Da_nut</title>
 
 	<style type="text/css">
-    	html{font-family: 'Pretendard-Regular'; line-height: 2}
-		body{margin: 0; background: linear-gradient(To top, rgb(150, 180, 255) 5%, white 80%);}
-		header{margin: auto; top: 0}
-		nav{background: rgb(218, 250, 250);position: fixed; width: 100%; top: 0;}
-		*{margin: 0;padding: 0}
-		h1{font-family: 'Pretendard-Regular'; font-weight: 900; font-size: 3rem}
-		h2{font-family: 'Pretendard-Regular'; font-weight: 900; font-size: 2rem}
-		h3{font-family: 'Pretendard-Regular'; font-weight: 800; font-size: 1.3rem; color: red;}
-		p{font-family: 'Pretendard-Regular'; font-weight: 500; font-size: 1.3rem}
-		.wrap{width: 800px; margin: auto;}
-		.wrap1000{width: 1000px; margin: auto}
-		.wrap400{width: 400px; margin: auto;}
-		.pp{padding: 20px; }
-		.centeralign{text-align: center;}
-		.p200tb{padding-top: 200px; padding-bottom: 200px}
-		.p200t100b{padding-top: 200px; padding-bottom: 100px}
-		.p100tb{padding-top: 100px; padding-bottom: 100px;}
-		.p200b{padding-bottom: 200px}
-		.p80tb{padding-top: 80px; padding-bottom: 80px;}
-		.p80t{padding-top: 80px; padding-bottom: 40px}
-		.p80b{padding-bottom: 80px}
-		.p80{padding: 80px}
-		.p50tb{padding-top: 50px; padding-bottom: 50px;}
-		.p50t100b{padding-top: 50px; padding-bottom: 100px;}
-		.p30tb{padding-top: 30px; padding-bottom: 30px;}
-		.p70t{padding-top: 70px;}
-		.p50t{padding-top: 50px;}
-		.p30t{padding-top: 30px;}
-		.p10b{padding-bottom: 10px}
-		.p5b{padding-bottom: 5px}
-		.p40{padding: 40px}
-		.p40b{padding-bottom: 40px}
-		.p40tb{padding-bottom: 40px; padding-top: 40px; padding-left: 80px }
-		.p20{padding: 20px}
-		.p30l{padding-left: 30px}
-		.flex{display: flex; flex-wrap: wrap;}
-		.w20{width: 22%; padding: 10px}
-		.w40{width: 48%;}
-		.w46{width: 46%;}
-		.bg-bg80{background: url(bg80.png); background-attachment: fixed; background-size: 400px}
-		.bg-stars{background: url(stars.gif); background-attachment: fixed; background-size: cover;}
-		.bg-stars2{background: url(stars.gif); background-attachment: fixed; background-size: 800px;}
-		.redbox{border: 1px dashed red; padding: 40px;}
-		@keyframes blink{
-			50%{opacity: 0;}
+
+		body{margin: 0px}
+		nav{background: rgb(18, 55, 143);position: fixed; width: 100%; top: 0; left: 0; right: 0}
+		li{list-style-type: none;}
+	
+		.navwrap{width: 1600px; margin: auto;}
+		.wrap{width: 1570px; margin: auto;}
+		.flex{display: flex; justify-content: space-between;}
+		.menu{width: 300px}
+		.menu li a{text-decoration: none;color: white ;padding:3px; display: block;}
+		.menu li a:hover{font-weight: bold; text-decoration: underline; text-underline-offset: 7px}
+
+		.pr{font-family: Noto Sans Kr; font-weight: 600; line-height: 1.8}
+		.pr400{font-family: Noto Sans Kr; font-weight: 400; line-height: 1.8}
+		@font-face {
+		    font-family: 'GmarketSansbold';
+		    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansbold.woff') format('woff');
+		    font-weight: normal;
+		    font-style: normal;
 		}
-		.blinking{animation: blink 1.1s step-end infinite;}
+		.gm{font-family:GmarketSansbold; font-weight: 700; line-height: 1.8}
+		.lh{line-height: 2.0}
+		.lh2{line-height: 1.0}
+
+		.center{text-align: center;}
+		.right{text-align: right;}
+		.pt10{font-size: 12pt}
+		.pt16{font-size: 16pt}
+		.pt20{font-size: 20pt}
+		.pt24{font-size: 24pt}
+		.pt32{font-size: 32pt}
+		.pt40{font-size: 40pt}
+		.pt48{font-size: 48pt}
+		.pt120{font-size: 120pt}
+
+		.lightblue{color: rgb(89, 194, 229)}
+		.bightblue{background-color: rgb(89, 194, 229);width: 100%; height: 15px}
+		.white{color: white;}
+		.navy{color: rgb(18, 55, 143)}
+		.bnavy{background-color: rgb(18, 55, 143); width: 100%; left: 0; right: 0}
+		.penut{color: rgb(236, 186, 122);}
+		.bpenut{background-color: rgb(236, 186, 122); width: 100%; left: 0; right: 0}
+		.red{color: rgb(213, 55, 51);}
+		.bred{background-color: rgb(213, 55, 51); width: 800px; margin: auto;}
+		.bred{animation: blink 1s steps(1, start) infinite;}
+		
+		@keyframes blink {
+		  0% { opacity: 1; }
+		  50% { opacity: 0; }
+		  100% { opacity: 1; }
+		}
+
+		.m100{margin-top: 100px; margin-bottom: 100px}
+
+		.ptb5{padding-top: 5px; padding-bottom: 5px}
+		.p10{padding: 10px}
+		.ptb10{padding-top: 10px; padding-bottom: 10px}
+		.p15{padding: 15px}
+		.p20{padding: 20px}
+		.ptb20{padding-top: 20px; padding-bottom: 20px}
+		.p40{padding: 40px}
+		.p-b40{padding-bottom: 40px}
+		.ptb40{padding-top: 40px; padding-bottom: 40px}
+		.p80{padding: 80px}
+		.ptb80{padding-top: 80px; padding-bottom: 80px}
+		.pd-b100{padding-bottom: 100px; }
+		.pd-t100{padding-top: 100px;}
+		.ptb100{padding-top: 100px; padding-bottom: 100px}
+		.pd-t200{padding-top: 200px; }
+		.ptb200{padding-top: 200px; padding-bottom: 200px}
+		.ptb300{padding-top: 300px; padding-bottom: 300px}
+		.t140b20{padding-top: 140px; padding-bottom: 20px}
+		.t580b40{padding-top: 580px; padding-bottom: 40px}
+
+		.rel{position: relative;}
+		.ab1{position: absolute; top: 280px; left: 280px }
+		.ab2{position: absolute; top: 280px; left: 683px }
+		.ab3{position: absolute; top: 280px; left: 1073px }
+		.ab-home{position: absolute; top: 80px; left: 30px }
+		.ab-stuff{position: absolute; top: 80px; right: 30px }
+
+
+		.box1{background-color: gray; width: 500px; height: 500px; margin: auto; }
+		.box2{background-color: gray; width: 400px; height: 400px; margin: auto; }
+		.box3{background-color: gray; width: 200px; height: 200px; margin: auto; }
+		.box4{background-color: gray; width: 500px; height: 180px; }
+		.box5-1{background-color: gray; width: 500px; height: 500px; margin: auto; }
+		.box5-1{animation: box5-1 2.5s ease-in-out infinite; animation-direction: alternate;}
+		@keyframes box5-1{
+			from{transform: scale(0.2)};
+			to{transform: scale(1);}
+		}
+		.box5-2{background-color: gray; width: 500px; height: 500px; margin: auto; }
+		.box5-2{animation: box5-2 2.5s ease-in-out infinite ; animation-direction: alternate;}
+		@keyframes box5-2{to{transform: scale(0.2);}}
+
+		.er{position: relative ;animation: er 2.5s ease-in-out infinite; animation-direction: alternate;}
+		@keyframes er{
+			from{left:-240px} 
+			to{left:240px}}
+
+		.img180{height: 180px;}
+		.bg-pic{background: url(땅콩배경.png); background-size: cover; background-attachment: fixed;}
+
+
 	</style>
 </head>
 <body>
 	<nav>
-		<h3>WiFi: Happily Ever After 5G       Pw: 12341234</h3>
+		<div class="navwrap flex">
+			<div class="gm white pt16 p15">Da_nut</div>
+		<ul class="menu flex gm pt10">
+			<li><a>About</a></li>
+			<li><a>Service</a></li>
+			<li><a>Caution</a></li>
+	</div>
 	</nav>
-	<header>
-		<div class="centeralign p200b">
-			<img src="logo.gif" loop=infinite width=100%>
+
+	<section class="wrap ptb100">
+		<div class="pt32 navy pr">다-넣어드립니다</div>
+		<div class="flex t140b20">
+			<div class="p10"><img src="책.png" class="img180"></div>
+			<div class="p10"><img src="세탁기.png" class="img180"></div>
+			<div class="p10"><img src="상의.png" class="img180"></div>
+			<div class="p10"><img src="에코백.png" class="img180"></div>
+			<div class="p10"><img src="침대.png" class="img180"></div>
+			<div class="box4"></div>
 		</div>
-	</header>
-	<section>
-		<div class="redbox wrap centeralign p100tb">
-			<h3 class="blinking">안녕하십니까. 러브하우스에 입주하게 되신 여러분을 환영합니다.<br>이 밑에는 앞으로 여러분이 거주하게 되실 러브하우스에 대한 안내사항이 적혀 있습니다.<br>잘 읽어보시고 이용 시 착오 없으시길 바랍니다.</h3>
-		</div>	
+		<div class="right gm pt120 lightblue">Da<span class="penut">_</span>nut</div>
 	</section>
-	<section class="wrap p100tb">
-			<h2 class="p40 centeralign">입주자</h2>
-		<div class="flex centeralign p40">
-			<p class="w20">김서연</p><p class="w20">김지현</p><p class="w20">박수민</p><p class="w20">배민주</p><p class="w20">백민주</p><p class="w20">이다봉</p><p class="w20">이현정</p><p class="w20">장성주</p>
+
+	<section class="wrap ptb200 center rel">
+		<div class="p40 pt24 navy pr ptb er">물건은 점점 늘어나는데</div>
+		<div class="ab-home">
+			<div class="box5-1"></div>
 		</div>
-			<p class="p40 centeralign">총 8인</p>
-	</section>
-	<section class="bg-stars">
-		<div class="wrap1000 p50tb">
-			<div class="p40tb"><h2>김서연</h2></div>
-			<div class="flex">
-				<div class="w40 p30l"><img src="Kim_S.png" height="400"></div>
-				<p class="w40 p70t">주 활동시간: 12시~2시
-				<br>식습관: 점심, 저녁 두끼
-				<br>아침 식사 유무: 보통은 안 먹음
-				<br>특이사항: 밤에 씻음, 일이 없으면 절대 외출하지 않음
-				<br>취미: 누워있기, 소설 읽기
-				<br>청소 빈도: 청소 시기는 느끼는 편</p></div>
-			</div>
+		<div class="ab-stuff">
+			<div class="box5-2"></div>
 		</div>
+		<div class="p40 pt24 navy pr er">내 집은 점점 좁아진다?!</div>
 	</section>
-	<section class="bg-stars">
-		<div class="wrap1000 p50tb">
-			<div class="p40tb"><h2>김지현</h2></div>
-			<div class="flex">
-				<div class="w40 p30l"><img src="Kim_J.png" height="400"></div>
-				<div class="w40 p50t">
-				<p>주 활동시간: 10시~ 오전 2시
-				<br>식습관: 점심 저녁만 식사 물 자주 마심 골고루 먹는 편 
-				<br>아침식사 유무: 안 먹음
-				<br>특이사항: 늦게 자는 편 주에 3,4일 정도 헬스장에 감,<br> 밥 먹고 바로 설거지 함, 5시 쯤 낮잠
-				<br>취미: 최근엔 야구보기밖에 없음
-				<br>청소주기: 일주일에 한 번정도</p></div>
-		</div>
+
+	<section class="wrap ptb200 center">
+		<div class="pt24 navy pr">쓰지도 버리지도 못하는 당신을 위해<br><span class="gm lightblue">Da<span class="penut">_</span>nut</span>이 나섰습니다!</div>
 	</section>
-	<section class="bg-stars">
-		<div class="wrap1000 p50tb">
-			<div class="p40tb"><h2>박수민</h2></div>
-			<div class="flex">
-				<div class="w40 p30l"><img src="Park.png" height="400"></div>
-				<div class="w40 p30t">
-				<p>주 활동시간: 12:00~4:00
-				<br>식습관: 점심과 저녁은 푸짐하게 먹는 편. <br>샐러드 좋아하는데 자주 안 먹음.가리지 않음. <br>디저트 좋아함. 유제품 좋아함. 빙과류 좋아함. 
-				<br>아침식사 유무: 안 먹음
-				<br>특이사항: 강아지 좋아함. 피곤하면 코 골음. <br>힘들 때 노래 부름. 노래 틀고 샤워함. 허리디스크 있음. 
-				<br>취미: 뜨개질, 악세사리 만들기, 책읽기, 애니메이션 보기
-				<br>청소 빈도: 방이 많이 더러울 때 청소함. 자주 안 함.</p></div>
-			</div>
-		</div>
+
+	<section class="bnavy center m100">
+		<div class="bg-pic pt32 navy pr p80">보관부터 처분까지<br><span class="gm ">Da<span class="lightblue">_</span>nut</span>이<br>다~해드려요</div>
 	</section>
-	<section class="bg-stars">
-		<div class="wrap1000 p50tb">
-			<div class="p40tb"><h2>배민주</h2></div>
-			<div class="flex">
-				<div class="w40 p30l"><img src="Bae.png" height="400"></div>
-				<div class="w40 p30t">
-				<p>주 활동시간: 9:00~4:00
-				<br>식습관: 불규칙적 
-				<br>아침식사 유무: 12시 쯤 사과와 땅콩버터 아침 겸 점심으로
-				<br>특이사항: 커피를 많이 마심, 맹물 못마심 보리차 선호, <br>가끔 신나면 새벽에 춤 춤, 불 꺼놓고 하루종일 생활함, <br>형광등 비선호, 낮엔 불 다 끄고 밤엔 무드등만 킴
-				<br>취미: 야구보기, 노래부르기, 뜨개질하기
-				<br>청소 빈도: 주 1회(대청소 기준)</p></div>
-			</div>
-		</div>
+
+	<section class="wrap ptb100">
+		<div class="pr lightblue pt24">그럼 이제, 다~넣어드릴까요?<br><span class="pr penut pt20"><span class="gm">Da_nut</span>은 이런 서비스입니다</span></div>
 	</section>
-	<section class="bg-stars">
-		<div class="wrap1000 p50tb">
-			<div class="p40tb"><h2>백민주</h2></div>
-			<div class="flex">
-				<div class="w40 p30l"><img src="Baek.png" height="400"></div>
-				<div class="w40 p50t">
-				<p>주 활동시간: 10:00-03:00
-				<br>식습관: 배달, 포장 자주 함
-				<br>아침식사 유무: 안 먹음 (먹으면 아몬드브리즈)
-				<br>특이사항: 밤에 머리감기 / 아침에 환기 시키기
-				<br>취미: 머리카락 돌돌이로 치우기
-				<br>청소빈도: 매일 돌돌이 + 주에 한번 화장실 청소</p></div>
-			</div>
-		</div>
+	<section class="wrap pd-b100">
+		<div class="center navy pt20 pr"><span class="gm">Da_nut</span>은 상품가치가 있는 물건에 한해<br>일정 기간동안 보관해드리는 서비스입니다</div>
+		<div class="box2 margin-auto"><img src="penut.img" class="p40"></div>
+		<div class="center penut pt10 pr">사용자는 보관 기간 중 아무때나 보관 물품을 가져갈 수 있어요</div>
 	</section>
-	<section class="bg-stars">
-		<div class="wrap1000 p50tb">
-			<div class="p40tb"><h2>이다봉</h2></div>
-			<div class="flex">
-				<div class="w40 p30l"><img src="Lee_D.png" height="400"></div>
-				<div class="w40 p30t">
-				<p>주 활동시간: 10:00-01:00
-				<br>식습관: 점심은 간단하게, 저녁은 친구들이랑 먹기, <br>있는 음식 활용하는 것을 선호함
-				<br>아침식사 유무: 안 먹음 (먹으면 단백질 쉐이크)
-				<br>특이사항: 무조건 밤에 머리감기, 샤워 개빨리하기, <br>애착인형(강이지) 있음
-				<br>취미: 영화보기, 드라마보기, 요가
-				<br>청소빈도: 매일 간단한 청소 + 3주에 한번 화장실 청소</p></div>
-			</div>
-		</div>
+
+	<section class="wrap ptb100 center">
+		<div class="pr pt24 white bred ptb20 blink">하<span class="lightblue">.</span>지<span class="lightblue">.</span>만<span class="lightblue">.</span> 보관기간이 끝난다면?</div>
 	</section>
-	<section class="bg-stars">
-		<div class="wrap1000 p50tb">
-			<div class="p40tb"><h2>이현정</h2></div>
-			<div class="flex">
-				<div class="w40 p30l"><img src="Lee_H.png" height="400"></div>
-				<div class="w40 p50t">
-				<p>주 활동시간: 9:00-1:00/2:00
-				<br>식습관: 최근 빵/샌드위치 위주 식사
-				<br>아침식사 유무:  먹음
-				<br>특이사항: 딱히 없음
-				<br>취미: 뜨개질 영화 독서
-				<br>청소 빈도: 달에 한두번</p></div>
-			</div>
-		</div>
+
+	<section class="wrap ptb100 center">
+		<div class="pr pt24 navy "><span class="gm lightblue">Da<span class="penut">_</span>nut</span>에 보관하신 물건을</div>
+		<div class="pr pt24 navy "><span class="gm lightblue">Da<span class="penut">_</span>nut</span>이 처분해드려요~</div>
+		<div class="pr pt10 penut pd-t100">처분 이후에는 소유권을 주장하실 수 없습니다<br>처분 시 발생되는 금전적 이익의 소유권은(주)<span class="gm">Da_nut</span>에 있습니다</div>
 	</section>
-	<section class="bg-stars">
-		<div class="wrap1000 p50tb">
-			<div class="p40tb"><h2>장성주</h2></div>
-			<div class="flex">
-				<div class="w40 p30l"><img src="Jang.png" height="400"></div>
-				<div class="w40 p30t">
-				<p>주 활동시간: 11:00-01:00
-				<br>식습관: 기름진 음식, 야식 안 좋아함, 한식 선호
-				<br>아침식사 유무: 일찍 일어나면 먹음, <br>아침에는 한식 잘 안 먹음, 간단한 빵이나 시리얼 등
-				<br>특이사항: 반신욕 좋아함, 청소 잘 안 함(노력할 예정), <br>요리를 잘 못 함(관심은 많음), 신나면 춤을 춤
-				<br>취미: 뜨개질(대바늘), 만화책 정독 후 필리버스터
-				<br>청소빈도: 먼지쌓이면 진공청소기, 다소 무감각함</p></div>
-			</div>
-		<div>
-	</section>
-	<section class="p100tb">
-		<div class="p80">
-			<h1>러브하우스 안내도</h1>
-		</div>
+
+	<section class="ptb100">
 		<div class="flex">
-			<div class="p20 w46"><img src="room.png" width="100%"></div>
-			<div class="w46 p40b p20">
-				<p>러브하우스는 총 3개층으로 이루어져있습니다.<br>화장실은 각 층별로 두 개씩 마련되어 있습니다. <br> <br>1층은 거실과 주방, 세탁실, 서재, 창고(계단 아래에 위치) 등의 공용공간으로 이루어져 있으며 간단한 청소는 2주에 한 번, 대청소는 한 달에 한 번 간격으로 이루어질 예정입니다.
-				<br> <br>*계단 아래 창고용 공간은 1층에만 존재합니다.
-				<br> <br>2층은 1인 1실 한 개와 2인 1실 두 개의 거주공간으로 이루어져 있습니다. 합의한 경우 2층 거실에 놓인 옷장의 옷을 공용으로 사용하는 것 또한 가능합니다. 그렇지 않은 경우 2층의 옷장에는 주로 여분의 침구가 비치되어 있을 예정입니다.<br> <br>3층은 1인 1실 한 개와  2인 1실 하나로 이루어져 있습니다. 3층에서는 넓은 거실 공간과 이동이 편리한 1인용 소파 등을 배치하였습니다. 다양한 취미활동 공간으로 사용해주시길 바랍니다. 다만 아래층이 거주공간이므로 늦은 밤에는 소음에 주의 부탁드립니다.</p>
+			<div class="gm lightblue pt24 p10">Da<span class="penut">_</span>nut</div>
+			<div class="gm lightblue pt24 p10">Da<span class="penut">_</span>nut</div>
+			<div class="gm lightblue pt24 p10">Da<span class="penut">_</span>nut</div>
+			<div class="gm lightblue pt24 p10">Da<span class="penut">_</span>nut</div>
+			<div class="gm lightblue pt24 p10">Da<span class="penut">_</span>nut</div>
+			<div class="gm lightblue pt24 p10">Da<span class="penut">_</span>nut</div>
+			<div class="gm lightblue pt24 p10">Da<span class="penut">_</span>nut</div>
+			<div class="gm lightblue pt24 p10">Da<span class="penut">_</span>nut</div>
+			<div class="gm lightblue pt24 p10">Da<span class="penut">_</span>nut</div>
+		</div>
+	</section>
+
+	<section class="wrap ptb100 rel">
+		<div class="pr lightblue pt24"><span class="gm">Da<span class="penut">_</span>nut</span>은 어떻게 이용하나요?</div>
+		<div class="pr penut pt20"><span class="gm">Da_nut</span> 사용법</div>
+		<div class="ab1">
+			<div class="pr red pt20 center">step 1</div>
+			<div class="box3"><img src="box"></div>
+			<div class="pr navy pt20 center">버리기 아까운 물건을<br>가까운 <span class="gm">Da_nut</span><br>매장에 가져간다</div>
+		</div>
+		<div class="ab2">
+			<div class="pr red pt20 center">step 2</div>
+			<div class="box3"><img src="receipt"></div>
+			<div class="pr navy pt20 center">원하는 옵션을<br>선택한 후<br>신청서를 작성한다</div>
+		</div>
+		<div class="ab3">
+			<div class="pr red pt20 center">step 3</div>
+			<div class="box3"><img src="home"></div>
+			<div class="pr navy pt20 center">넓어진 공간을<br>만끽한다</div>
+		</div>
+		<div class=" pr penut pt10 center t580b40">보관기간과 보관하시는 물품의 양에 따라 결제 금액이 달라질 수 있습니다.</div>
+		</div>
+	</section>
+
+	</section>
+
+	<section class="wrap ptb100">
+		<div class="pr lightblue pt32">이런 물건은 안 돼요!</div>
+		<div class="pr penut pt20">주의사항</div>
+	</section>
+
+	<section class="wrap ptb100">
+		<div class="pr navy pt20">상품가치가 과도하게 훼손된 물품</div>
+		<div class="pr red pt16">쓰레기는 쓰레기통에!</div>
+		<div class="box1"></div>
+	</section>
+
+	<section class="wrap ptb100">
+		<div class="pr navy pt20">사랑이 필요한 생명</div>
+		<div class="pr red pt16">개미도 씨몽키도 예외는 아니에요</div>
+		<div class="box1"><img src=""></div>
+	</section>
+
+	<section class="wrap ptb100">
+		<div class="pr navy pt20">장물</div>
+		<div class="pr red pt16">Da_nut은 실명제로 운영됩니다</div>
+		<div class="box1"><img src=""></div>
+	</section>
+
+	<section class="wrap ptb100 center">
+		<div class="pr navy pt40 pd-t200"><span class="gm lightblue">Da<span class="penut">_</span>nut</span> 사용하시고<br>모두 공간 <span class="lightblue">부<span class="penut">-</span>자</span>되세요</div>
+	</section>
+
+	<section class="wrap ptb100 center pr 10pt penut">
+		<div>이용약관<br>이미 처분된 물건에 대해서는 <span class="gm">Da_nut</span>이 관여하지 않습니다.<br>보관할 뭂품의 상태에 따라 보관료가 책정되며 경우에 따라 가격은 변동될 수 있습니다.<br>유효 기간 만료에 대해서는 별도의 안내를 드리지 않습니다.<br>처분 시 발생한 금전적 이득의 소유권은 (주)<span class="gm">Da_nut</span>에 있습니다.</div>
+	</section>
+
+	<section class="bnavy">
+		<div class="wrap ptb40 gm white pt32 lh2">da_nut<br>
+			<span class="pr pt10">이용약관·개인정보처리방침·공지사항·FnQ</span>
+		</div>
+		<div class="wrap p-b40">
+			<div class="pr white 10pt lh">고객센터<span class="pr400 white 10pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;02-000-0000</span><br>상담 가능 시간<span class="pr400 white 10pt">&nbsp;&nbsp;&nbsp;&nbsp;10:00-18:00</span><br>운영일&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="pr400 white 10pt">공휴일 휴무<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;매장에 따라 상이할 수 있습니다</span>
 			</div>
-	</section>
-	<section class="bg-bg80 p100tb">
-		<div class="wrap">
-			<h1>러브하우스 사용 규칙 및 이용 시 주의사항</h1>
-		</div>
-		<div class="wrap p20">
-			<h3 class="p10b">*어길 시 개인에게 일어나는 모든 불이익에 대해서는 책임질 수 없습니다.</h3>
-			<p>1. 러브하우스 내 모든 공간은 철저히 금연입니다.
-			<br>2. 화장실 청소를 포함하여 간단한 청소는 2주에 한 번, 대청소는 한 달에 한 번 이루어질 <br>예정입니다. 많은 협조 부탁드리며 개인 사정으로 인해 빠지게 될 경우에는 단체 채팅방 등에 <br>미리 공지 부탁드립니다.
-			<br>3. 소음 관리를 위해 23시 이후에는 세탁기 및 청소기의 사용이 금지됩니다. 22시 이후 세탁기 혹은 청소기의 소음이 들릴 경우 같은 층의 동거인과 함께 있으십시오. 혼자일 경우에는 방문을 닫아 <br>두어야 합니다. 
-			<br>4. 식재료 및 생활용품 구매 등은 공용 신용카드로 결제할 예정입니다. <br>매달 카드 결제일에 정산되오니  사적인 용도로는 사용하지 않도록 주의 부탁드립니다. 
-			<br>5. 원하는 식재료 및 필요한 생활용품이 있는 분들은 1층 화이트보드 게시판에 적어주시면 됩니다. <br>게시판에 적은 날의 날짜도 함께 기재 부탁드립니다.
-			<br>6. 러브하우스에는 빨간색 수성 마커가 없습니다. 모든 빨간색 마커로 쓰여진 글은 무시하십시오.
-			<br>7. 아침 식사는 아침 8시에 시작됩니다. 아침식사 하시는 분들끼리 협의 후 변경 가능합니다.
-			<br>8. 소통은 입주 시 초대해드린 러브하우스 단톡방 이용하시면 됩니다.
-			<br>9. 방은 협의 하에 자유롭게 이동하셔도 상관 없습니다. 
-			<br>10. 1인실 사용자분들은 비가 오는 밤에는 여분용 이불을 가지고 2인실에서 지내시길 바랍니다. <br>안전을 위한 것이니 2인실 사용자 분들께는 양해 부탁드립니다.  
-			<br>11. 이 집에 춤을 추는 사람은 두 명 뿐입니다. 세 명이 함께 춤을 추는 광경을 목격하시면 그대로 왔던 길을 되돌아 가십시오. 함께 춤을 추는 사람이 네 명이라면 괜찮습니다. 
-			<br>12. 반려동물 입주에 관해서는 단체 회의를 통해 신중하게 결정될 것입니다. 
-			<br>13. 서로의 프라이버시 존중 및 편의를 위해 개인 공간에는 가급적 출입을 삼가주시길 바랍니다.</p>
 		</div>
 	</section>
-	<section>
-		<div class="wrap1000 centeralign p200t100b">
-			<h2>러브하우스는 총 8인의 동거인으로 이루어져 있으며 모두의 친목을 응원합니다.<br>모든 동거인은 평등하며 고액의 금전 거래는 지양해주시길 바랍니다.</h2>
-		</div>
+	<section class="bightblue"></section>
+	<section class="bpenut">
+		<div class="center pr red ptb20 bg-pic">copyrightⓒ장성주. All rights reserved.</div>
 	</section>
-	<section>
-		<div class="wrap centeralign p50t100b">
-			<h3>이 페이지는 항상 하는 쓰잘데기 없는 수다를 바탕으로 한 허구에 의해 작성되었습니다. 
-			<br>이용에 착오 없으시길 당부 드립니다.</h3>
-		</div>
-	</section>
-	<footer class="bg-stars2">
-		<div class="wrap centeralign p100tb">
-			<p>러브하우스©2025 장성주 모든 권리 보유</p>
-		</div>
-	</footer>
 </body>
 </html>
